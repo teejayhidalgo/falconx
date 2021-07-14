@@ -13,7 +13,7 @@ Installation Guide:
     WP_HOME='http://falconx.local'
 5. WP Admin username and password is admin/admin
 
-=====================================================================================================================
+================================================================
 
 Instructions: 
 
@@ -39,7 +39,7 @@ o Expertise -> Areas of Expertise section
 o Why Lorem -> Why Lorem section
 o Business Outcomes -> Business outcomes section
 
-=====================================================================================================================
+================================================================
 
 Notes:
 
@@ -55,7 +55,7 @@ Frontend
 * I was not able to finish styling the website
 * I was not able to use the correct fonts
 
-=====================================================================================================================
+================================================================
 
 Study References:
 1. Bedrock boilerplate with flywheel installation
