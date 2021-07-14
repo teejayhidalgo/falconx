@@ -1,0 +1,99 @@
+.wp-block-cover {
+	background-color: $veryLightGray;
+	background-size: cover;
+
+	@include breakpoint-up(large) {
+		display: flex;
+		align-items: center;
+	}
+
+	&.falcon-hero-image {
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		min-height: 17.5rem;
+
+		@include breakpoint-up(medium) {
+			min-height: 25rem;
+			background-position: center 70%;
+		}
+
+		@include breakpoint-up(large) {
+			flex: 3;
+			order: 2;
+			height: 41rem;
+			background-image: none;
+			//background-image: url('/images/bg-intro-desktop.svg');
+			//background-position: left center;
+		}
+
+		&::before {
+			@include breakpoint-up(large) {
+				content: "";
+				position: absolute;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-position: center bottom;
+				width: 150%;
+				background-size: 122%;
+				background-position: 0% 83%;
+			}
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-size: 93%;
+			background-repeat: no-repeat;
+			background-position: center bottom;
+
+			@include breakpoint-up(medium) {
+				background-size: 52%;
+			}
+
+			@include breakpoint-up(large) {
+				width: 120%;
+				height: 122%;
+				background-size: 94%;
+				background-position: center 150%;
+				left: 22%;
+			}
+		}
+	}
+
+	&__text {
+		text-align: center;
+
+		@include breakpoint-up(large) {
+			flex: 2;
+			order: 1;
+			text-align: left;
+		}
+	}
+}
+
+.falcon-hero-heading {
+	position: relative;
+	padding-left: 265px;
+}
+.falcon-expertise-header {
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+	align-content: center;
+}
+.falcon-why-header {
+	position: relative;
+	margin-top: -40px;
+	padding-left: 10%;
+	padding-right: 10%;
+	align-content: center;
+}
+
+.falcon-why-2 {
+	position: relative;
+	left: 150px;
+}
