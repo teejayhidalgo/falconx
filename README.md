@@ -18,25 +18,37 @@ Installation Guide:
 Instructions: 
 
 o Must not use any page builder like Elementor or Divi.
+
 o All content must be dynamic like the text, images, background, etc.
+
 x You can use any CSS framework but make sure to load only the needed components.
+
 o Use SASS/SCSS instead of CSS.
+
 x Must be mobile responsive.
+
 o Write an instruction on how to install/test your website
+
 o Upload your code and database to a repository like Github. 
+
 o Link the top menu to the sections.
 
 Plus points (Optional)
 
 o Gutenberg block implemenation.
+
 o Use bedrock boilerplate for your WordPress structure.
+
 x Use Webpack to bundle assets.
+
 o Write your javascript in vanilla js instead of using a library like jquery.
 
 Menu
 
 o Expertise -> Areas of Expertise section
+
 o Why Lorem -> Why Lorem section
+
 o Business Outcomes -> Business outcomes section
 
 ================================================================
