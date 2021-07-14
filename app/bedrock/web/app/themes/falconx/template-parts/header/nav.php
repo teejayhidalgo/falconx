@@ -33,8 +33,8 @@ $image_url = $image[0];
 			}?>
     </div>
 
-    <a href="#" class="button header__cta call hide-for-mobile">CALL 123 4567</a>
-    <a href="#" class="button header__cta contact hide-for-mobile">CONTACT US</a>
+    <a href="#" class="button header__cta call hide-for-mobile" style="background-color:<?php echo get_theme_mod( 'falcon_left_button_color' );?>"><?php echo get_theme_mod( 'falcon_left_button_text' );?></a>
+    <a href="#" class="button header__cta contact hide-for-mobile" style="background-color:<?php echo get_theme_mod( 'falcon_right_button_color' );?>"><?php echo get_theme_mod( 'falcon_right_button_text' );?></a>
 </nav>
 
 <div class="header__menu has-fade">

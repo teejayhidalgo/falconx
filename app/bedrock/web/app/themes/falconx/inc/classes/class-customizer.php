@@ -277,6 +277,7 @@ class Customizer {
         $this->falconx_customize_why_section($wp_customize);
         $this->falconx_customize_outcome_section($wp_customize);
         $this->falconx_customize_footer_section($wp_customize);
+        $this->falconx_customize_nav_buttons($wp_customize);
     }
 
     public function falconx_customize_why_section($wp_customize) {
@@ -460,6 +461,79 @@ class Customizer {
             'type' => 'input'
         ]   
         );
+
+    }
+
+    public function falconx_customize_nav_buttons($wp_customize) {
+        $falconx_section_button = 'falconx_section_button';
+
+        $wp_customize->add_section( $falconx_section_button,
+        [
+            'title' => __( 'Nav Button Customizer' ),
+            'description' => esc_html__( 'Customize Text and Color.' )
+        ]
+        );
+
+        $falcon_left_button_text = 'falcon_left_button_text';
+        $wp_customize->add_setting( $falcon_left_button_text );
+        $wp_customize->add_control(
+        $falcon_left_button_text,
+        [
+            'label' => __( 'Left Button Text' ),
+            'section' => $falconx_section_button,
+            'type' => 'input'
+        ]   
+        );
+
+        $falcon_left_button_color = 'falcon_left_button_color';
+        $wp_customize->add_setting( $falcon_left_button_color,
+        [
+            'default' => '#003878',
+            'transport' => 'refresh',
+            'sanitize_callback' => 'sanitize_hex_color'
+        ]
+        
+        );
+
+        $wp_customize->add_control( $falcon_left_button_color,
+        [
+            'label' => __( 'Nav Left Button Color' ),
+            'section' => $falconx_section_button,
+            'type' => 'color'
+        ]
+           
+        );
+
+        $falcon_right_button_text = 'falcon_right_button_text';
+        $wp_customize->add_setting( $falcon_right_button_text );
+        $wp_customize->add_control(
+        $falcon_right_button_text,
+        [
+            'label' => __( 'Right Button Text' ),
+            'section' => $falconx_section_button,
+            'type' => 'input'
+        ]   
+        );
+
+        $falcon_right_button_color = 'falcon_right_button_color';
+        $wp_customize->add_setting( $falcon_right_button_color,
+        [
+            'default' => '#f47820',
+            'transport' => 'refresh',
+            'sanitize_callback' => 'sanitize_hex_color'
+        ]
+        
+        );
+
+        $wp_customize->add_control( $falcon_right_button_color,
+        [
+            'label' => __( 'Nav Right Button Color' ),
+            'section' => $falconx_section_button,
+            'type' => 'color'
+        ]
+           
+        );
+        
 
     }
 

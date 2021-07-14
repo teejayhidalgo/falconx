@@ -7,9 +7,9 @@
 
 ?>
 
-<!-- wp:columns {"style":{"color":{"background":"#003878"}},"textColor":"white","className":"falcon-footer"} -->
-<div class="wp-block-columns falcon-footer has-white-color has-text-color has-background" style="background-color:#003878"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"center","textColor":"white"} -->
+<!-- wp:columns {"style":{"color":{"background":"#003878"}},"textColor":"white"} -->
+<div class="wp-block-columns has-white-color has-text-color has-background" style="background-color:#003878"><!-- wp:column {"className":"falcon-footer"} -->
+<div class="wp-block-column falcon-footer"><!-- wp:heading {"textAlign":"center","textColor":"white"} -->
 <h2 class="has-text-align-center has-white-color has-text-color">Class aptent taciti sociosqu ad litor? Duis co.</h2>
 <!-- /wp:heading -->
 
@@ -19,9 +19,9 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color">Call 123 456</a></div>
+<div class="wp-block-column"><!-- wp:buttons {"className":"falcon-footer-left-button"} -->
+<div class="wp-block-buttons falcon-footer-left-button"><!-- wp:button {"textColor":"white","className":"is-style-outline footer-call-button"} -->
+<div class="wp-block-button is-style-outline footer-call-button"><a class="wp-block-button__link has-white-color has-text-color">Call 123 456</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -46,9 +46,9 @@
 <div class="wp-block-column"></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph -->
-<p>@ Lorem 2021</p>
+<!-- wp:column {"className":"falcon-footer-copy-div"} -->
+<div class="wp-block-column falcon-footer-copy-div"><!-- wp:paragraph {"className":"footer-copy"} -->
+<p class="footer-copy">@ Lorem 2021</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

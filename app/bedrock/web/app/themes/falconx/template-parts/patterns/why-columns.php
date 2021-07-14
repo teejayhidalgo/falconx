@@ -7,11 +7,11 @@
 
 ?>
 
-<!-- wp:cover {"url":"http://falconx.local/app/uploads/2021/07/articles-image.png","id":32,"minHeight":1660} -->
-<div class="wp-block-cover has-background-dim" style="min-height:1660px"><img class="wp-block-cover__image-background wp-image-32" alt="" src="http://falconx.local/app/uploads/2021/07/articles-image.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
+<!-- wp:cover {"url":"http://falconx.local/app/uploads/2021/07/Layer-4-scaled.jpg","id":90,"focalPoint":{"x":"0.56","y":"0.46"},"minHeight":1660,"className":"falcon-why-header"} -->
+<div class="wp-block-cover has-background-dim falcon-why-header" style="min-height:1660px" id="whylorem"><img class="wp-block-cover__image-background wp-image-90" alt="" src="http://falconx.local/app/uploads/2021/07/Layer-4-scaled.jpg" style="object-position:56% 46%" data-object-fit="cover" data-object-position="56% 46%"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"60%"} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:heading {"level":5,"textColor":"cyan-bluish-gray"} -->
-<h5 class="has-cyan-bluish-gray-color has-text-color">WHY LOREM</h5>
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:heading {"level":5,"textColor":"cyan-bluish-gray","fontSize":"small"} -->
+<h5 class="has-cyan-bluish-gray-color has-text-color has-small-font-size">WHY LOREM</h5>
 <!-- /wp:heading -->
 
 <!-- wp:heading -->
@@ -44,8 +44,8 @@
 <!-- /wp:columns --></div></div>
 <!-- /wp:group -->
 
-<!-- wp:group -->
-<div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:columns -->
+<!-- wp:group {"className":"falcon-why-2"} -->
+<div class="wp-block-group falcon-why-2"><div class="wp-block-group__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"415px"} -->
 <div class="wp-block-column" style="flex-basis:415px"><!-- wp:heading {"style":{"color":{"text":"#f58233"}}} -->
 <h2 class="has-text-color" style="color:#f58233">2</h2>

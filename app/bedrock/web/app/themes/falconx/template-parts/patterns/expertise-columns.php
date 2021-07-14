@@ -8,9 +8,9 @@
 ?>
 
 <!-- wp:columns {"style":{"color":{"background":"#003878"}},"textColor":"white"} -->
-<div class="wp-block-columns has-white-color has-text-color has-background" style="background-color:#003878"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":5,"textColor":"cyan-bluish-gray","fontSize":"normal"} -->
-<h5 class="has-cyan-bluish-gray-color has-text-color has-normal-font-size">AREAS OF EXPERTISE</h5>
+<div class="wp-block-columns has-white-color has-text-color has-background" id="expertise" style="background-color:#003878"><!-- wp:column {"className":"falcon-expertise-header"} -->
+<div class="wp-block-column falcon-expertise-header"><!-- wp:heading {"level":5,"textColor":"cyan-bluish-gray","fontSize":"small"} -->
+<h5 class="has-cyan-bluish-gray-color has-text-color has-small-font-size">AREAS OF EXPERTISE</h5>
 <!-- /wp:heading -->
 
 <!-- wp:heading -->
